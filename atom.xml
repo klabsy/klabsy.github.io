@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>klabsy</title>
+  
+  <subtitle>klab溯语の博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://klabsy.github.io/"/>
+  <updated>2022-03-06T13:45:42.123Z</updated>
+  <id>https://klabsy.github.io/</id>
+  
+  <author>
+    <name>klabsy</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git笔记</title>
+    <link href="https://klabsy.github.io/posts/d9283bc6.html"/>
+    <id>https://klabsy.github.io/posts/d9283bc6.html</id>
+    <published>2022-03-06T13:44:43.000Z</published>
+    <updated>2022-03-06T13:45:42.123Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;一、git基本操作&quot;&gt;&lt;a href=&quot;#一、git基本操作&quot; class=&quot;headerlink&quot; title=&quot;一、git基本操作&quot;&gt;&lt;/a&gt;一、git基本操作&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;git remote -v   
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>redis笔记</title>
+    <link href="https://klabsy.github.io/posts/390cb8c9.html"/>
+    <id>https://klabsy.github.io/posts/390cb8c9.html</id>
+    <published>2021-07-28T05:28:44.000Z</published>
+    <updated>2021-07-28T05:32:40.679Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;redis启动&quot;&gt;&lt;a href=&quot;#redis启动&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Scikitlearn学习笔记</title>
+    <link href="https://klabsy.github.io/posts/d1bce7ae.html"/>
+    <id>https://klabsy.github.io/posts/d1bce7ae.html</id>
+    <published>2021-06-05T07:37:11.000Z</published>
+    <updated>2022-03-27T12:37:15.099Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;1-决策树&quot;&gt;&lt;a href=&quot;#1-决策树&quot; class=&quot;headerlink&quot; title=&quot;1.决策树&quot;&gt;&lt;/a&gt;1.决策树&lt;/h4&gt;&lt;h5 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="博客篇" scheme="https://klabsy.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+      <category term="机器学习" scheme="https://klabsy.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="Scikitlearn" scheme="https://klabsy.github.io/tags/Scikitlearn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于gitee配合PicGo创建图床</title>
+    <link href="https://klabsy.github.io/posts/4dda6de3.html"/>
+    <id>https://klabsy.github.io/posts/4dda6de3.html</id>
+    <published>2021-06-05T07:34:49.000Z</published>
+    <updated>2021-06-09T06:21:48.904Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="博客篇" scheme="https://klabsy.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+      <category term="PiGGo" scheme="https://klabsy.github.io/tags/PiGGo/"/>
+    
+      <category term="gitee图床" scheme="https://klabsy.github.io/tags/gitee%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PicGo+GitHub 图床搭建</title>
+    <link href="https://klabsy.github.io/posts/7a46f93c.html"/>
+    <id>https://klabsy.github.io/posts/7a46f93c.html</id>
+    <published>2020-06-08T16:00:00.000Z</published>
+    <updated>2021-06-09T06:23:23.493Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;用GitHub搭建图床，在很久之前我就有了解，但由于市面上有挺多免费的图床，比如我之前一直在用的
+        
+      
+    
+    </summary>
+    
+      <category term="转载篇" scheme="https://klabsy.github.io/categories/%E8%BD%AC%E8%BD%BD%E7%AF%87/"/>
+    
+    
+      <category term="PicGo" scheme="https://klabsy.github.io/tags/PicGo/"/>
+    
+      <category term="GitHub图床" scheme="https://klabsy.github.io/tags/GitHub%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo之渲染绕过</title>
+    <link href="https://klabsy.github.io/posts/17fd92ae.html"/>
+    <id>https://klabsy.github.io/posts/17fd92ae.html</id>
+    <published>2020-04-27T16:00:00.000Z</published>
+    <updated>2021-06-09T06:23:35.730Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;0x001-Hexo-渲染&quot;&gt;&lt;a href=&quot;#0x001-Hexo-渲染&quot; class=&quot;headerlink&quot; title=&quot;0x001 Hexo 渲染&quot;&gt;&lt;/a&gt;0x001 Hexo
+        
+      
+    
+    </summary>
+    
+      <category term="转载篇" scheme="https://klabsy.github.io/categories/%E8%BD%AC%E8%BD%BD%E7%AF%87/"/>
+    
+    
+      <category term="Hexo" scheme="https://klabsy.github.io/tags/Hexo/"/>
+    
+      <category term="渲染绕过" scheme="https://klabsy.github.io/tags/%E6%B8%B2%E6%9F%93%E7%BB%95%E8%BF%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阿里云服务器部署Hexo博客</title>
+    <link href="https://klabsy.github.io/posts/19d2a4e6.html"/>
+    <id>https://klabsy.github.io/posts/19d2a4e6.html</id>
+    <published>2020-02-26T16:00:00.000Z</published>
+    <updated>2021-08-19T01:33:55.055Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="转载篇" scheme="https://klabsy.github.io/categories/%E8%BD%AC%E8%BD%BD%E7%AF%87/"/>
+    
+    
+      <category term="Hexo" scheme="https://klabsy.github.io/tags/Hexo/"/>
+    
+      <category term="博客" scheme="https://klabsy.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="阿里云" scheme="https://klabsy.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人博客搭建</title>
+    <link href="https://klabsy.github.io/posts/e3e08109.html"/>
+    <id>https://klabsy.github.io/posts/e3e08109.html</id>
+    <published>2019-08-27T03:41:03.000Z</published>
+    <updated>2021-08-09T16:18:00.723Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;0x001-效果演示&quot;&gt;&lt;a href=&quot;#0x001-效果演示&quot; class=&quot;headerlink&quot; title=&quot;0x001 效果演示&quot;&gt;&lt;/a&gt;0x001 效果演示&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="转载篇" scheme="https://klabsy.github.io/categories/%E8%BD%AC%E8%BD%BD%E7%AF%87/"/>
+    
+    
+      <category term="Hexo" scheme="https://klabsy.github.io/tags/Hexo/"/>
+    
+      <category term="Github" scheme="https://klabsy.github.io/tags/Github/"/>
+    
+      <category term="博客" scheme="https://klabsy.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
