@@ -8,9 +8,21 @@
       <link href="/posts/d9283bc6.html"/>
       <url>/posts/d9283bc6.html</url>
       
-        <content type="html"><![CDATA[<h1 id="一、git基本操作"><a href="#一、git基本操作" class="headerlink" title="一、git基本操作"></a>一、git基本操作</h1><blockquote><p>git remote -v    查看当前连接的远程仓库</p><p>git remote set-url origin     更换远程仓库</p></blockquote><p><strong>1.</strong></p><blockquote><p>git status            检查状态</p></blockquote><p><strong>2.</strong></p><blockquote><p>git branch           查看所处分支</p></blockquote><p><strong>3.</strong></p><blockquote><p>git checkout -b user        创建分支并切换（创建user分支）</p><p>//</p><p>git checkout master       切换分支</p></blockquote><p><strong>4.</strong></p><blockquote><p>git add .            添加文件到暂存区</p><p>git commit -m “完成功能开发”  将暂存区内容添加到本地仓库中</p></blockquote><h5 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h5><blockquote><p>git push -u origin user     推送分支到云端</p></blockquote><p><strong>6.</strong></p><blockquote><p>git checkout master      切换分支到主分支,将所有分支内容送到主分支</p></blockquote><p><strong>7.</strong></p><blockquote><p>git merge user        {本地}将分支user的内容合并到主分支master上（迁移）</p></blockquote><p><strong>8.</strong></p><blockquote><p>git push            传到云端主分支</p></blockquote><p><strong>操作:</strong></p><blockquote><p>git remote   远程仓库操作</p><p>git fetch    从远程获取代码库</p><p>git pull    下载远程代码并合并</p><p>git push    上传远程代码并合并</p></blockquote><h1 id="二、在网站上创建好代码仓库后"><a href="#二、在网站上创建好代码仓库后" class="headerlink" title="二、在网站上创建好代码仓库后"></a>二、在网站上创建好代码仓库后</h1><blockquote><p>初始化git init</p></blockquote><blockquote><p>检查状态（应该有很多文件未提交）git status</p></blockquote><blockquote><p>提交到本地仓库git add .</p></blockquote><blockquote><p>这时候提交应该git commit -m “add files”</p></blockquote><blockquote><p>连接远程仓库git remote add origin <a href="https://gitee.com/liu-aibing/vue_shop.git" target="_blank" rel="noopener">https://gitee.com/liu-aibing/vue_shop.git</a></p></blockquote><p>（//上传上传至远程代码仓库主分支master里，这时候会出错，因为! [rejected] master -&gt; master (fetch first) error: failed to push some refs to ‘ 。。。’</p><p>出现这个问题是因为github中的README.md文件不在本地代码目录中，可以通过如下命令进行代码合并）</p><blockquote><p>git pull –rebase origin master（得到云端的README.md，然后再提交）</p></blockquote><blockquote><p>git push -u origin master（提交到云端）</p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id="一、git基本操作"><a href="#一、git基本操作" class="headerlink" title="一、git基本操作"></a>一、git基本操作</h1><blockquote><p>git remote -v    查看当前连接的远程仓库</p><p>git remote set-url origin     更换远程仓库</p></blockquote><p><strong>1.</strong></p><blockquote><p>git status            检查状态</p></blockquote><p><strong>2.</strong></p><blockquote><p>git branch           查看所处分支</p></blockquote><p><strong>3.</strong></p><blockquote><p>git checkout -b user        创建分支并切换（创建user分支）</p><p>git checkout master       切换分支</p></blockquote><p><strong>4.</strong></p><blockquote><p>git add .            添加文件到暂存区</p><p>git commit -m “完成功能开发”  将暂存区内容添加到本地仓库中</p></blockquote><p><strong>5.</strong></p><blockquote><p>git push -u origin user     推送分支到云端</p></blockquote><p><strong>6.</strong></p><blockquote><p>git checkout master      切换分支到主分支,将所有分支内容送到主分支</p></blockquote><p><strong>7.</strong></p><blockquote><p>git merge user        {本地}将分支user的内容合并到主分支master上（迁移）</p></blockquote><p><strong>8.</strong></p><blockquote><p>git push            传到云端主分支</p></blockquote><p><strong>操作:</strong></p><blockquote><p>git remote   远程仓库操作</p><p>git fetch    从远程获取代码库</p><p>git pull    下载远程代码并合并</p><p>git push    上传远程代码并合并</p></blockquote><h1 id="二、在网站上创建好代码仓库后"><a href="#二、在网站上创建好代码仓库后" class="headerlink" title="二、在网站上创建好代码仓库后"></a>二、在网站上创建好代码仓库后</h1><blockquote><p>初始化git init</p></blockquote><blockquote><p>检查状态（应该有很多文件未提交）git status</p></blockquote><blockquote><p>提交到本地仓库git add .</p></blockquote><blockquote><p>这时候提交应该git commit -m “add files”</p></blockquote><blockquote><p>连接远程仓库git remote add origin <a href="https://gitee.com/liu-aibing/vue_shop.git" target="_blank" rel="noopener">https://gitee.com/liu-aibing/vue_shop.git</a></p></blockquote><p>（//上传上传至远程代码仓库主分支master里，这时候会出错，因为! [rejected] master -&gt; master (fetch first) error: failed to push some refs to ‘ 。。。’</p><p>出现这个问题是因为github中的README.md文件不在本地代码目录中，可以通过如下命令进行代码合并）</p><blockquote><p>git pull –rebase origin master（得到云端的README.md，然后再提交）</p></blockquote><blockquote><p>git push -u origin master（提交到云端）</p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
       
     </entry>
     
@@ -24,6 +36,18 @@
         <content type="html"><![CDATA[<h1 id="redis启动"><a href="#redis启动" class="headerlink" title="redis启动"></a>redis启动</h1><ol><li>Redis-cli.exe</li><li>shutdown</li><li>exit</li><li>redis-server.exe redis.windows.conf</li></ol><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/liu-aibing/picimg/raw/master/20190624174512519.png" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Redis </tag>
+            
+        </tags>
       
     </entry>
     
